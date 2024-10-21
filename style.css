@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.big-container {
+  display: flex;
+  flex-direction: row;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.coloumn {
+  background-color: rgb(75, 174, 235);
+  color: whitesmoke;
+  width: 280px;
+  height: 900px;
+  padding-left: 30px;
+  font-style: bold;
+}
+.coloumn h3 {
+  text-align: left;
+}
+.coloumn li:hover {
+  /* color: blue; */
+  background-color: burlywood;
+  border-radius: 5px;
+  width: 130px;
+}
+li {
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+}
+.coloumn i {
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+.sec-con {
+  /* background-color: gray; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  background-color: white;
+  flex-basis: 20%;
+  max-height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row   ;
+}
+.search{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 65%;
+  /* background-color: red;  */
+}
+.nav-right{
+  flex-basis: 35%;
+  max-height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.detail1 {
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.side ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.detail{
+  width: 70%;
+}
+.side {
+  gap: 50px;
+  width: 100%;
+}
+.top nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  /* justify-content: flex-end;  */
+}
+.top a {
+  height: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: rgb(75, 174, 235);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.search input {
+  background-color: rgb(247, 247, 247);
+  margin: 30px;
+  width: 500px;
+  height: 15px;
+  border-radius: 15px;
+  padding-bottom: 2px;
+}
+.bottom {
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+  flex-basis: 90%;
+  display: flex;
+  /* padding-right: 20px; */
+}
+.left {
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background: beige; */
+}
+.left h3 {
+  height: 50px;
+  /* background-color: beige; */
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.left-child {
+  padding-left: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.right {
+  display: flex;
+  flex-basis: 35%;
+  width: 250px;
+  /* gap: 30px;  */
+  padding-top: 30px;
+  flex-wrap: wrap;
+  /* background: red; */
+}
+.within2 h4 {
+  height: 30px;
+}
+.within2-child {
+  height: 200px;
+  background-color: white;
+  border-radius: 7px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-right: 20px;
+  font-size: smaller;
+}
+a{
+  text-decoration: none;
+  color: white;
+  /* font: bold; */
+}
+.within {
+  height: 143px;
+  width: 300px;
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.within-body{
+  height: 100%;
+  overflow: scroll;
+}
+.within-body::-webkit-scrollbar{
+  display: none;
+}
+.within::after{
+  position: absolute;
+  height: 100%;
+  content: "";
+  inset: 0;
+  background-color: rgb(234, 167, 21);
+  width: 5px;
+}
+.within2 {
+  height: 248px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  /* background-color: red; */
+}
